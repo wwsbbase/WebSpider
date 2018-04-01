@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for webSpider project
+# Scrapy settings for WebSpider project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'webSpider'
+BOT_NAME = 'WebSpider'
 
-SPIDER_MODULES = ['webSpider.spiders']
-NEWSPIDER_MODULE = 'webSpider.spiders'
+SPIDER_MODULES = ['WebSpider.spiders']
+NEWSPIDER_MODULE = 'WebSpider.spiders'
 
 
-# Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'webSpider (+http://www.yourdomain.com)'
+# Crawl responsibly by identifying yourself (and your Website) on the user-agent
+#USER_AGENT = 'WebSpider (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -24,7 +24,7 @@ ROBOTSTXT_OBEY = True
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
-# Configure a delay for requests for the same website (default: 0)
+# Configure a delay for requests for the same Website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
 #DOWNLOAD_DELAY = 3
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'webSpider.middlewares.WebspiderSpiderMiddleware': 543,
+#    'WebSpider.middlewares.WebspiderSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'webSpider.middlewares.WebspiderDownloaderMiddleware': 543,
+#    'WebSpider.middlewares.WebspiderDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'webSpider.pipelines.WebspiderPipeline': 300,
+#    'WebSpider.pipelines.WebspiderPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

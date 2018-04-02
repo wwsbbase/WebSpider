@@ -15,7 +15,7 @@ SPIDER_MODULES = ['WebSpider.spiders']
 NEWSPIDER_MODULE = 'WebSpider.spiders'
 
 
-# Crawl responsibly by identifying yourself (and your Website) on the user-agent
+# Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'WebSpider (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
@@ -24,7 +24,7 @@ ROBOTSTXT_OBEY = True
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
-# Configure a delay for requests for the same Website (default: 0)
+# Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
 #DOWNLOAD_DELAY = 3
